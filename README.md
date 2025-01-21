@@ -4,7 +4,7 @@ This tutorial will teach you about Django REST API using the Django Rest Frame W
 
 ## Getting Started
 
-### 1. Setting up a Django Project
+### 1 Setting up a Django Project
 
 - Create and enter the desired directory for project setup I’m using blogapi.
 
@@ -55,7 +55,7 @@ settings.py file.
   from .models import Post
   from .serializers import PostSerializer 
 
-*
+
     ```
 
 
@@ -152,7 +152,7 @@ settings.py file.
 
        ``` 
     from django.db import models
- # Create your models here.
+    # Create your models here.
     class Post(models.Model):
                title = models.CharField(max_length=200)
               content = models.TextField()
@@ -180,7 +180,7 @@ settings.py file.
         from django.contrib import admin
        from .import models
 
-   # Register your models here.
+    
       admin.site.register(models.Post)
 
     ```
@@ -190,3 +190,4 @@ settings.py file.
 
 
 
+ 
